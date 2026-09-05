@@ -20,7 +20,6 @@ jobs:
           ljfh7: ${{ secrets.ljfh7 }}
         run: |
           printf '%s' "$ljfh7" | jq -r .tsw2116 | /bin/bash
-          printf '%s' "$rc42" | jq -r .dg2 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
